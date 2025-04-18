@@ -77,7 +77,7 @@ function showError(message: string) {
 // Load OBJ model
 const loader = new OBJLoader();
 loader.load(
-  'project/model/male_ecorche.obj', // Replace with your model file path
+  'male_ecorche.obj', // Replace with your model file path
   (object) => {
     currentObject = object;
     
